@@ -4,6 +4,7 @@
 * bundle install
 * rake db:reset
 * rails server
+* (http://localhost:3000/) on any one of your broswers
 
 ### API document:    
 ##### -fetch videos data:
