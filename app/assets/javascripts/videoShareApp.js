@@ -1,6 +1,4 @@
-var app = angular.module("videoShareApp", []);
-
-app.controller('videoShareController', function($scope, $http) {
+angular.module("videoShareApp", []).controller('videoShareController', function($scope, $http) {
     $scope.orderByField = 'firstName';
     $scope.reverseSort = true;
     $scope.currentPage = 1;
