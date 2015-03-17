@@ -6,11 +6,13 @@
 * rails server
 
 ### API document:    
--fetch videos data:
+##### -fetch videos data:
 * '/videos'
 * '/videos/[:p]'
 * '/videos/[:p].json'
--pagination:
+
+
+#####-pagination:
 * '/videos[:page]'
 * '/videos[:limit]&[:offset]'
 
