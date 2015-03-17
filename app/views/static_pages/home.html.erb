@@ -1,0 +1,26 @@
+<% provide(:title, "Home") %>
+<div data-ng-init="" data-ng-controller="videoShareController" class="center jumbotron">
+  <h1>Welcome to the VideoShare app</h1>
+  <p>This is a simple web application to share videos using fetchDataAPI to fetch videos</p>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th data-ng-click="orderByField='title'; reverseSort = !reverseSort" style= "color:red; font-size:150%"}>Title</th>
+        <th>Description</th>
+        <th>Logo Image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="x in videos | filter:title | orderBy:orderByField:reverseSort">
+        <td>{{ x.id }}</td>
+        <td>{{ x.title }}</td>
+        <td>{{ x.longDescription}}</td>
+        <td><img src="{{ x.link.logo_image}}"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button class="btn btn-lg btn-primary" ng-click="prePage()">PrePage</button>
+  <button class="btn btn-lg btn-primary" ng-click="nextPage()">NextPage</button>
+</div>

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root  'static_pages#home'
+  get   'about' => 'static_pages#about'
+  get   'contact' => 'static_pages#contact'
   resources :videos, except: [:new, :edit]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
