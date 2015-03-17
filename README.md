@@ -1,14 +1,11 @@
-===============
-A video data sharing app using my own-design restful API
+## A video data sharing app using my own-design restful API
 
----------------
-Use commend below to run the server on your localhost after clone this project:
-
+## Use commend below to run the server on your localhost after clone this project:
 * bundle install
 * rake db:reset
 * rails server
 
-### API document: ＜/br＞    
+### API document:    
 -fetch videos data:
 * '/videos'
 * '/videos/[:p]'
