@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  shortDescription: MyString
+  longDescription: MyString
+  liveBroadcastTime: MyString
+  showTitle: MyString
+  channelTitle: MyString
+  season: MyString
+  episode: MyString
+  duration: MyString
+  parentalGuidance: MyString
+  logo_image: MyString
+  userVideoDetails: MyString
+  template_image: MyString
+  show: MyString
+  channel: MyString
+  self: MyString
+  publisher: MyString
+  default_image: MyString
+  cell_image: MyString
+  channel_subscription_status: MyString
+  showId: MyString
+  channelId: MyString
+
+two:
+  title: MyString
+  shortDescription: MyString
+  longDescription: MyString
+  liveBroadcastTime: MyString
+  showTitle: MyString
+  channelTitle: MyString
+  season: MyString
+  episode: MyString
+  duration: MyString
+  parentalGuidance: MyString
+  logo_image: MyString
+  userVideoDetails: MyString
+  template_image: MyString
+  show: MyString
+  channel: MyString
+  self: MyString
+  publisher: MyString
+  default_image: MyString
+  cell_image: MyString
+  channel_subscription_status: MyString
+  showId: MyString
+  channelId: MyString
