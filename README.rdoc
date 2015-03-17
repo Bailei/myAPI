@@ -1,20 +1,23 @@
-<h1>A video data sharing app using my own-design restful API
+#A video data sharing app using my own-design restful API
 
-<h1>Use commend below to run the server on your localhost after clone this project:
-```
-bundle install
-rake db:reset
-rails server
-```
+#Use commend below to run the server on your localhost after clone this project:
 
-<h2>API document:
+bundle install<br />
+rake db:reset<br />
+rails server<br />
+
+
+##API document:
 -fetch videos data:
-* '/videos' or * '/videos/[:p]' or * '/videos/[:p].json'
+* '/videos'
+* '/videos/[:p]'
+* '/videos/[:p].json'
 
 -pagination:
-* '/videos[:page]' or * '/videos[:limit]&[:offset]'
+* '/videos[:page]'
+* '/videos[:limit]&[:offset]'
 
-<h2>App:
+##App:
 - Angular JS driven web app that displays videos fetched from my own-design restful API service;
 - Support lazy loading, each page will display 6 items at most in a table format, the table header has four tabs, id, title, description and logo image respectively;
 - Apply bootstrap to stylize the web layout;
