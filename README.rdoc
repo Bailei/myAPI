@@ -8,8 +8,7 @@ Use commend below to run the server on your localhost after clone this project:
 * rake db:reset
 * rails server
 
-API document: ＜/br＞    
----
+### API document: ＜/br＞    
 -fetch videos data:
 * '/videos'
 * '/videos/[:p]'
@@ -18,8 +17,7 @@ API document: ＜/br＞
 * '/videos[:page]'
 * '/videos[:limit]&[:offset]'
 
-App:
----
+### App:
 - Angular JS driven web app that displays videos fetched from my own-design restful API service;
 - Support lazy loading, each page will display 6 items at most in a table format, the table header has four tabs, id, title, description and logo image respectively;
 - Apply bootstrap to stylize the web layout;
